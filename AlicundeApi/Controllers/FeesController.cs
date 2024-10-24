@@ -44,6 +44,7 @@ namespace AlicundeApi.Controllers
         {
             var fees = await _context.Fees.FindAsync(id);
         
+            //si no hay datos 
               if (fees == null )
               {
                 return NotFound("No fees found.");

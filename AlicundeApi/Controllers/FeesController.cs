@@ -31,6 +31,7 @@ namespace AlicundeApi.Controllers
             var fees = await _context.Fees.ToListAsync();
             return Ok(fees);
         }
+
        
         
         /// <summary>
